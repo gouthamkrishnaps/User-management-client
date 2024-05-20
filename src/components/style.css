@@ -1,0 +1,42 @@
+.home{
+    min-height: 90vh;
+}
+.home-input{
+    width: 300px;
+}
+.user-img{
+    box-shadow: 1px 1px 10px 10px rgba(128, 128, 128, 0.37);
+}
+.login{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/abstract-envelope.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/subtle-prism.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container, .register-container{
+    width: 80%;
+    height: 70vh;
+    background-color: white;
+}
+.company-head{
+    color: rgb(27, 123, 12);
+    font-weight: 800;
+}
+.input-section input{
+    width: 100%;
+    background-color: rgba(124, 255, 130, 0.23);
+}
